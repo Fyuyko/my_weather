@@ -1,0 +1,9 @@
+.about__app {
+   margin: 40px 0;
+}
+
+.about__app a {
+   margin: 0;
+   text-decoration: none;
+   color:black
+}

@@ -1,0 +1,15 @@
+footer {
+   height: 35px;
+   background-color: #314e2f;   
+   font-size: 14px;
+   align-items: center;
+}
+
+footer a,
+footer a:active,
+footer a:hover {
+   margin-left: 70px;
+   text-decoration: none;
+   color: #D6D6D6; 
+}
+

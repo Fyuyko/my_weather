@@ -1,0 +1,32 @@
+.wrapper {
+   width: 100%;
+   min-height: 100vh;
+   position: static;
+   background: linear-gradient(160deg, rgb(211, 255, 206), rgb(76, 114, 76)); 
+   display: flex;
+   flex-direction: column; 
+}
+
+.app {
+   flex: 1 1 auto;
+   margin: 30px auto;
+}
+
+.main {
+   width: 500px;
+   height: 250px;
+   margin: 50px auto;
+   text-align: center;
+}
+
+.warm {
+   background-image: url('../../assets/warm-bg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.cold {
+   background-image: url('../../assets/cold-bg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}

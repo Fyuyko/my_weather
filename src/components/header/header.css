@@ -1,0 +1,31 @@
+header {
+   height: 80px;
+   background-color: #314e2f;
+   font-size: 30px;
+   box-shadow: 15px 15px 30px rgba(0,0,0, .30);
+}
+
+nav {
+   position: relative;
+   margin-left: 70px;
+}
+
+ul{
+   position: absolute;
+   transform: translateY(50%);
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+li {
+   list-style-type: none; 
+   margin-right: 35px;
+}
+
+header a {
+   margin: 0;
+   cursor: pointer;
+   text-decoration: none;
+   color: #D6D6D6;
+}
