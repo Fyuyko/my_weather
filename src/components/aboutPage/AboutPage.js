@@ -15,7 +15,7 @@ const AboutPage = () => {
          <h4>
             API: <a href="https://openweathermap.org/">openweather</a> 
          </h4>
-         <h4><a href="https://github.com/Fyuyko/ToDo">Ссылка на репозиторий {svg}</a></h4>
+         <h4><a href="https://github.com/Fyuyko/my_weather">Ссылка на репозиторий {svg}</a></h4>
       </div>
    );
 };

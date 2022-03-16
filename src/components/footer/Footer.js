@@ -5,7 +5,7 @@ const svgFooter = <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
 const Footer = () => {
    return (
       <footer>
-         <a href="https://github.com/Fyuyko/ToDo">
+         <a href="https://github.com/Fyuyko/my_weatherhttps://github.com/Fyuyko/my_weatherhttps://github.com/Fyuyko/my_weatherhttps://github.com/Fyuyko/my_weatherhttps://github.com/Fyuyko/my_weatherhttps://github.com/Fyuyko/my_weather">
             Repository {svgFooter}
          </a>
       </footer>
