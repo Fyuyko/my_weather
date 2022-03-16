@@ -1,7 +1,7 @@
 const ErrorMessage = () => {
    return (
       <div>
-         Sorry, this city was not found
+         Sorry, an error occurred, please try again later
       </div>
    )
 }

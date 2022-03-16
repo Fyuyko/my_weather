@@ -14,7 +14,7 @@ import './app.css';
 
 const api = {
   key: 'db89d94f35a2db5c3841b47e00ee75e0',
-  base: 'http://api.openweathermap.org/data/2.5/'
+  base: 'https://api.openweathermap.org/data/2.5/'
 };
 
 function App() {
@@ -39,17 +39,23 @@ function App() {
           }
         })
         .then(res => res.json())
-        .then(result => {
-          setWeather(result);
+        .then(res => {
+          setWeather(res);
           setCity('');
           setLoading(false);
           setError(false);
-          console.log(result);})
-        .catch(() => { //обрабатываем только ошибку отсутствия города
-          setError(true);
-          setLoading(false);
-          setCity('');                    
-          setWeather('');          
+          console.log(res);})
+        .catch((e) => { //обрабатываем только ошибку отсутствия города    
+          if (e.message==='Not Found') {
+            setLoading(false);          
+            setCity('');                    
+            setWeather('');   
+            setError(true);
+            console.log('такой город не найден');
+          } else {
+            console.log('Error: ' + e.message);
+          }
+          
         });
     }
   }; 
