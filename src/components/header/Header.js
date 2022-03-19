@@ -12,7 +12,7 @@ const Header = () => {
                      style={({isActive}) => ({color: isActive ? "#fff" : "#D6D6D6"})}
                      to="/"
                   >
-                     Main
+                     Главная
                   </NavLink>
                </li>
                <li>
@@ -20,7 +20,7 @@ const Header = () => {
                      style={({isActive}) => ({color: isActive ? "#fff" : "#D6D6D6"})}
                      to="/about"
                   >
-                     About
+                     О пректе
                   </NavLink>
                </li>
             </ul>
